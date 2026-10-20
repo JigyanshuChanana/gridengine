@@ -1,0 +1,10 @@
+build/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.ipynb_checkpoints/
+.coverage
+*_out.txt
+*_out.lst
+*_out.npz 

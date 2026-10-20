@@ -1,0 +1,16 @@
+name: c1
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - networkx
+  - pytest
+  - pytest-cov
+  - hypothesis
+  - ruff
+  - jupyterlab
+  - pip

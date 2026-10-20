@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "gridengine"
+version = "0.0.1"
+description = "Power-system analysis engine with ML surrogates"
+requires-python = ">=3.11"
+dependencies = ["numpy", "scipy"]
+[project.scripts]
+gridengine = "gridengine.cli:main"
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --import-mode=importlib"
+markers = ["slow: takes more than 10 s"]
+[tool.ruff]
+line-length = 100
